@@ -17,7 +17,7 @@ unit2-responsivewebsite/
 
 ## How to Use
 
-1. Open `index.html` in your web browser to view the website or visit the github pages louielynmata.github.io/unit2-responsivewebsite.
+1. Open `index.html` in your web browser to view the website or visit the github pages  [louielynmata.github.io/unit2-responsivewebsite](https://louielynmata.github.io/unit2-responsivewebsite).
 2. The CSS file is located at `assets/style.css` and is automatically linked in the HTML.
 3. Images used for backgrounds and icons are in the `assets` folder.
 
