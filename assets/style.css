@@ -1,0 +1,147 @@
+:root {
+  --primary-color: #6bfacd;
+  --secondary-color: #3b0f86;
+  --bg-color: #000000;
+  --bg-color-accent: #051755;
+  --text-color: #e7eff1;
+  --font-general: "Figtree", sans-serif;
+  --font-header: "Libre Baskerville", serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-general);
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  font-size: 0.875rem; /* 14px */
+  background-image: url("bg-2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* Semantic Styles */
+header {
+  color: var(--text-color);
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 1.5rem;
+  letter-spacing: -1px;
+  font-weight: 0;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* Header & Text Styles */
+
+h1 {
+  font-family: var(--font-header);
+  font-size: 7rem;
+  font-style: italic;
+  text-shadow: #222b47 2px 2px 4px;
+  line-height: 1;
+  margin-bottom: 2rem;
+}
+
+.subtitle {
+  font-family: var(--font-general);
+  font-size: 1rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 0 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family: var(--font-header);
+  font-style: italic;
+}
+
+main {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10rem;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  width: 100%;
+  display: grid;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.bubble {
+  border-radius: 25px;
+  background: var(--secondary-color);
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  background: var(--bg-color-accent);
+  height: auto;
+  padding: 2rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+}
