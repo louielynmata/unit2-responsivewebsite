@@ -1,6 +1,7 @@
 # Responsive Website by Louielyn Mata
 
 This project is a simple responsive website created for CPRG303-D MOBILE, Unit 2. It demonstrates basic HTML and CSS structure, including responsive design techniques.
+This was a personal challenge to make a RESPONSIVE WEBSITE in 1 HOUR.
 
 ## Folder Structure
 
